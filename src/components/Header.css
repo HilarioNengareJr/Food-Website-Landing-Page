@@ -1,11 +1,13 @@
+
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
 
+/* .navbar, */
 .header-btn-group .btn { display: none; }
 
 .header {
-  --color: var(--independence);
+  --color: var(--white);
   --btn-color: var(--champagne-pink);
 
   position: absolute;
@@ -73,7 +75,7 @@
 .line {
   width: 10px;
   height: 3px;
-  background-color: var(--color);
+  background-color: var(--btn-color);
   border-radius: 5px;
   transition: var(--transition-1);
 }
@@ -82,11 +84,11 @@
 
 .line.bottom { margin-left: auto; }
 
-.nav-toggle-btn.active .line.top { transform: translate(1px, 3px) rotate(45deg) !important}
+.nav-toggle-btn.active .line.top { transform: translate(1px, 3px) rotate(45deg); }
 
-.nav-toggle-btn.active .line.middle { transform: rotate(-45deg) !important;}
+.nav-toggle-btn.active .line.middle { transform: rotate(-45deg); }
 
-.nav-toggle-btn.active .line.bottom { transform: translate(-1px, -3px) rotate(45deg) !important; }
+.nav-toggle-btn.active .line.bottom { transform: translate(-1px, -3px) rotate(45deg); }
 
 .navbar {
   position: absolute;
@@ -104,9 +106,8 @@
 }
 
 .navbar.active {
-  height: 500px;
+  height: 236px;
   visibility: visible;
-  overflow-y: scroll;
 }
 
 .navbar-list { margin-block: 10px; }
@@ -123,5 +124,72 @@
 }
 
 .navbar-link:is(:hover, :focus) { color: var(--dark-orange); }
+
+
+
+
+/*-----------------------------------*\
+  #SEARCH BOX
+\*-----------------------------------*/
+
+.search-container {
+  position: fixed;
+  top: -60%;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  background-color: var(--black_95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 15px;
+  z-index: 5;
+  visibility: hidden;
+  opacity: 0;
+  transition: var(--transition-2);
+}
+
+.search-container.active {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(50%);
+}
+
+.search-box {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+}
+
+.search-input {
+  color: var(--gainsboro);
+  font-size: 3rem;
+  padding: 20px 15px;
+  padding-inline-end: 70px;
+}
+
+.search-input::placeholder { color: var(--spanish-gray); }
+
+.search-input::-webkit-search-cancel-button { display: none; }
+
+.search-submit {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  color: var(--onyx);
+  font-size: 4rem;
+  transition: var(--transition-1);
+}
+
+.search-submit:is(:hover, :focus) { color: var(--gainsboro); }
+
+.search-close-btn {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  cursor: url("/public/images/close.png"), auto;
+}
+
 
 

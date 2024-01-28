@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
-import Products from './components/ProductListing';
+import Hero from './components/Hero';
 import './App.css';
 
 class App extends Component {
@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <React.Fragment>
        <Header />
-       <Products />
+       <Hero />
       </React.Fragment>
     );
   }
