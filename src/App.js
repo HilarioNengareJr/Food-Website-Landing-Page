@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Promo from  './components/Promo';
+import About from './components/About';
 import './App.css';
 
 class App extends Component {
@@ -9,6 +11,8 @@ class App extends Component {
       <React.Fragment>
        <Header />
        <Hero />
+       <Promo />
+       <About />
       </React.Fragment>
     );
   }
