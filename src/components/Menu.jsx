@@ -58,11 +58,20 @@ const Menu = () => {
                                 <p className="category">Chicken</p>
 
                                 <div className="rating-wrapper">
-                                    
-                                    
-                                    
-                                    
-                                    
+
+
+                                    <div className="wrapper">
+                                        
+                                        <div className="rating-wrapper">
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                        </div>
+                                    </div>
+
+
                                 </div>
                             </div>
 
@@ -96,11 +105,20 @@ const Menu = () => {
                                 <p className="category">Noddles</p>
 
                                 <div className="rating-wrapper">
-                                    
-                                    
-                                    
-                                    
-                                    
+
+                                    <div className="wrapper">
+                                        
+                                        <div className="rating-wrapper">
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                        </div>
+                                    </div>
+
+
+
                                 </div>
                             </div>
 
@@ -134,11 +152,20 @@ const Menu = () => {
                                 <p className="category">Pizzas</p>
 
                                 <div className="rating-wrapper">
-                                    
-                                    
-                                    
-                                    
-                                    
+
+                                    <div className="wrapper">
+                                        
+                                        <div className="rating-wrapper">
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                        </div>
+                                    </div>
+
+
+
                                 </div>
                             </div>
 
@@ -172,11 +199,20 @@ const Menu = () => {
                                 <p className="category">Burrito</p>
 
                                 <div className="rating-wrapper">
-                                    
-                                    
-                                    
-                                    
-                                    
+
+
+
+                                    <div className="wrapper">
+                                        
+                                        <div className="rating-wrapper">
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
 
@@ -210,11 +246,20 @@ const Menu = () => {
                                 <p className="category">Nuggets</p>
 
                                 <div className="rating-wrapper">
-                                    
-                                    
-                                    
-                                    
-                                    
+
+                                    <div className="wrapper">
+                                        
+                                        <div className="rating-wrapper">
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                        </div>
+                                    </div>
+
+
+
                                 </div>
                             </div>
 
@@ -239,7 +284,7 @@ const Menu = () => {
                             <div className="card-banner">
                                 <img src="/images/food-menu-6.png" width={300} height={300} loading="lazy" alt="Wendy's Chicken" className="w-100" />
 
-                                /                 <div className="badge">-15%</div>
+                                <div className="badge">-15%</div>
 
                                 <button className="btn food-menu-btn">Order Now</button>
                             </div>
@@ -248,11 +293,17 @@ const Menu = () => {
                                 <p className="category">Chicken</p>
 
                                 <div className="rating-wrapper">
-                                    
-                                    
-                                    
-                                    
-                                    
+
+                                    <div className="wrapper">
+                                        
+                                        <div className="rating-wrapper">
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                            <ion-icon name="star" role="img" className="md hydrated" aria-label="star"></ion-icon>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 

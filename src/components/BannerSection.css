@@ -1,0 +1,83 @@
+
+/*-----------------------------------*\
+  #BANNER
+\*-----------------------------------*/
+
+.banner { color: var(--white); }
+
+.banner-list {
+  display: grid;
+  gap: 10px;
+}
+
+.banner-lg { height: 430px; }
+
+.banner-sm { height: 200px; }
+
+.banner-md { height: 240px; }
+
+.banner-card {
+  position: relative;
+  height: 100%;
+  box-shadow: var(--shadow-2);
+  overflow: hidden;
+}
+
+.banner-card .banner-img {
+  background-color: var(--gainsboro);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1);
+  transition: var(--transition-2);
+}
+
+.banner-card:is(:hover, :focus-within) .banner-img { transform: scale(1.05); }
+
+.banner-item-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20px;
+  right: 20px;
+  max-height: calc(100% - 30px);
+}
+
+.banner-md .banner-item-content { left: 50%; }
+
+.banner-subtitle,
+.banner-title {
+  font-family: var(--ff-rubik);
+  font-weight: var(--fw-600);
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+}
+
+.banner-lg .banner-subtitle {
+  font-size: var(--fs-2);
+  margin-block-end: 10px;
+}
+
+.banner-lg .banner-title {
+  font-size: var(--fs-1);
+  max-width: 16ch;
+}
+
+:is(.banner-md, .banner-sm) .banner-title {
+  font-size: var(--fs-2);
+  max-width: 10ch;
+}
+
+.banner-card .banner-text { margin-block: 10px 15px; }
+
+.banner-card .btn {
+  --bg-color: var(--dark-orange);
+  --height: 40px;
+  --padding-inline: 25px;
+}
+
+.banner-card .btn:is(:hover, :focus) { background-color: var(--rich-black-fogra-29); }
+
+
+
+
