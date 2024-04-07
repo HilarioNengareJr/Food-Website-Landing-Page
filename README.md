@@ -38,30 +38,6 @@ To run the project locally, follow these steps:
 
 5. Open your browser and visit `http://localhost:3000` to view the landing page.
 
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
-
-1. Fork the repository and create your branch:
-
-    ```bash
-    git checkout -b feature/your-feature-name
-    ```
-
-2. Commit your changes:
-
-    ```bash
-    git commit -am 'Add some feature'
-    ```
-
-3. Push to the branch:
-
-    ```bash
-    git push origin feature/your-feature-name
-    ```
-
-4. Submit a pull request with detailed information about the changes.
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
