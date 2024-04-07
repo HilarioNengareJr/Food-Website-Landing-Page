@@ -20,11 +20,7 @@ This project is a fully responsive mock-up landing page for Pizza Vira Restauran
 
 To run the project locally, follow these steps:
 
-1. Clone the repository to your local machine:
-
-    ```bash
-    git clone https://github.com/your-username/pizza-vira-landing.git
-    ```
+1. Clone the repository to your local machine
 
 2. Navigate to the project directory:
 
